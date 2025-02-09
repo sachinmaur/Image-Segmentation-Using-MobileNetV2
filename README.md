@@ -13,6 +13,7 @@ This project leverages **MobileNetV2**, a lightweight pre-trained encoder, for f
 ## Dataset
 The dataset used in this project is the **ISIC (International Skin Imaging Collaboration) dataset**, which is widely used for skin lesion segmentation tasks. It contains dermoscopic images labeled with binary segmentation masks.
 
+
 ### Dataset Details
 - **Training Set:** 900 images (128×128 resolution)
 - **Testing Set:** 379 images (128×128 resolution)
@@ -31,7 +32,7 @@ The dataset used in this project is the **ISIC (International Skin Imaging Colla
 Below is an example of a dataset sample:
 - **Left:** Original image
 - **Right:** Corresponding ground truth mask
-
+![1](https://github.com/user-attachments/assets/2bcdea16-2a8a-440c-b233-9e56f8e443e1)
 ---
 
 ## Model Architecture
