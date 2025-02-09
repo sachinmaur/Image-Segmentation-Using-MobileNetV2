@@ -1,23 +1,4 @@
 # Image Segmentation Using MobileNetV2
-
-## Author
-**Sachin Maurya**  
-
-## Abstract
-This project presents a deep learning-based approach for binary image segmentation using **MobileNetV2** as the encoder and a custom decoder. Two models were developed and evaluated:
-
-- **Model 1**: Frozen encoder with trainable decoder.
-- **Model 2**: Fine-tuned encoder with trainable decoder.
-
-A dataset of **900 training images** and **379 test images**, along with their corresponding segmentation masks, was used for training and evaluation. The models were evaluated using key performance metrics:
-
-- **Intersection over Union (IoU)**
-- **Dice Score**
-
-Results indicate that **Model 2 outperforms Model 1**, achieving superior accuracy and generalization.
-
----
-
 ## Introduction
 Image segmentation is a fundamental task in computer vision, where each pixel in an image is classified as either part of the foreground (region of interest) or the background. Applications of segmentation include:
 
